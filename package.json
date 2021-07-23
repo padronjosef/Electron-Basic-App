@@ -1,0 +1,22 @@
+{
+  "name": "app01-intro",
+  "version": "1.0.0",
+  "description": "Desktop App multiplatform with Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:win32": "electron-packager . --platform=win32 --arch=x64"
+  },
+  "keywords": [
+    "Electron",
+    "desktop",
+    "multiplatform",
+    "node.js",
+    "react"
+  ],
+  "author": "Jose Padron",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.1.7"
+  }
+}
